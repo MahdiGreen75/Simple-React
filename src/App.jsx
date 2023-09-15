@@ -1,9 +1,8 @@
-
+import { useState } from 'react';
 import './App.css'
 import toast, { Toaster } from 'react-hot-toast';
 import Courses from './components/Courses/Courses';
 import Cart from './components/Cart/Cart';
-import { useState } from 'react';
 
 
 function App() {
