@@ -7,13 +7,27 @@ import Cart from './components/Cart/Cart';
 
 function App() {
   const [handleCourse, setHandleCourse] = useState([]);
+  const [credit, setCredit] = useState(0);
+  const [totalPrice, setTotalPrice] = useState(0);
+ 
+
 
   const handlerCourses = (course) => {
     if (handleCourse.includes(course)) {
       toast.error("You can't register same course twice.");
       return;
     }
+    
+    let changedCredit = credit + course.credit_hour;
+    let changedTotalPrice = totalPrice + course.price;
+    if (changedCredit > 20) {
+      toast.error("Maximum credit hour exceeded.");
+      return;
+    }
+   
+    setCredit(changedCredit);
     setHandleCourse([...handleCourse, course]);
+    setTotalPrice(changedTotalPrice);
   }
 
   return (
@@ -26,7 +40,7 @@ function App() {
 
         <div className='flex'>
           <Courses handlerCourses={handlerCourses}></Courses>
-          <Cart handleCourse={handleCourse}></Cart>
+          <Cart handleCourse={handleCourse} totalPrice={totalPrice} credit={credit}></Cart>
         </div>
       </div>
     </>

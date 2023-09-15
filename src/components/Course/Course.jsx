@@ -14,7 +14,7 @@ const Course = ({ handlerCourses, course }) => {
                     <img src={DollerIcon} className='w-4'/>
                     <span className='mr-3'>Price: {price}</span>
                     <img src={BookIcon} className='w-4'/>
-                    <span className='ml-1'>Credit: {credit_hour}</span>
+                    <span className='ml-1'>Credit: {credit_hour} hr</span>
                 </div>
                 <button onClick={()=>handlerCourses(course)} className='w-full py-1
                     font-bold
