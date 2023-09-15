@@ -1,0 +1,74 @@
+[
+    {
+      "id": 8402,
+      "course_title": "Introduction to C Programming",
+      "course_img": "https://i.ibb.co/SrsGjwr/Rectangle-2-2.png",
+      "description": "Learn the basics of C programming in this introductory course. Get started with syntax, data types, and control structures.",
+      "price": 15000,
+      "credit_hour": 1
+    },
+    {
+      "id": 8405,
+      "course_title": "Introduction to Algorithms",
+      "course_img": "https://i.ibb.co/Wcph6f3/Rectangle-2-3.png",
+      "description": "Explore algorithm design and analysis. Understand fundamental algorithms and their applications in various domains.",
+      "price": 10000,
+      "credit_hour": 2
+    },
+    {
+      "id": 8406,
+      "course_title": "Introduction to C++ for DSA",
+      "course_img": "https://i.ibb.co/fMHdMvK/Rectangle-2-4.png",
+      "description": "Master C++ for data structures and algorithms. Learn object-oriented programming and problem-solving with C++.",
+      "price": 25000,
+      "credit_hour": 10
+    },
+    {
+      "id": 8409,
+      "course_title": "Basic Data Structures",
+      "course_img": "https://i.ibb.co/R7p1NX9/Rectangle-3.png",
+      "description": "Study essential data structures like arrays, linked lists, and trees. Build a strong foundation in data structure concepts.",
+      "price": 12000,
+      "credit_hour": 5
+    },
+    {
+      "id": 8407,
+      "course_title": "Introduction to OOP Python",
+      "course_img": "https://i.ibb.co/ts9n1Jt/Rectangle-2.png",
+      "description": "Discover Python's object-oriented programming capabilities. Create reusable and efficient code using Python.",
+      "price": 10000,
+      "credit_hour": 5
+    },
+    {
+      "id": 8410,
+      "course_title": "Software Engineering",
+      "course_img": "https://i.ibb.co/4SHvXxg/Rectangle-2-5.png",
+      "description": "Dive into software engineering principles. Learn about the software development life cycle, design patterns, and more.",
+      "price": 23000,
+      "credit_hour": 2
+    },
+    {
+      "id": 8420,
+      "course_title": "AWS, Cloud Computing",
+      "course_img": "https://i.ibb.co/N6zCMN9/Rectangle-3-1.png",
+      "description": "Explore Amazon Web Services (AWS) and cloud computing. Deploy and manage applications in the cloud.",
+      "price": 35000,
+      "credit_hour": 5
+    },
+    {
+      "id": 8430,
+      "course_title": "Database (MySQL)",
+      "course_img": "https://i.ibb.co/rvhXZyz/Rectangle-2-1.png",
+      "description": "Master MySQL for database management. Learn to design, query, and maintain relational databases with MySQL.",
+      "price": 19000,
+      "credit_hour": 5
+    },
+    {
+      "id": 8455,
+      "course_title": "Problem-Solving Part",
+      "course_img": "https://i.ibb.co/Pm9NwcD/Rectangle-2-6.png",
+      "description": "Enhance your problem-solving skills. Solve challenging problems and develop strategies for coding interviews.",
+      "price": 15000,
+      "credit_hour": 2
+    }
+  ]
