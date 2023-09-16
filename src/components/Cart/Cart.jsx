@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import CartItems from '../CartItems/CartItems';
 
-
-
 const Cart = ({ handleCourse, credit, totalPrice }) => {
     let remainingHour = 20 - credit;
     let remainingHourPositive;
@@ -29,12 +27,10 @@ const Cart = ({ handleCourse, credit, totalPrice }) => {
                         })
                     }
                 </ol>
-
                 <div className='mt-4 mb-1 border-b-2 border-b-neutral-200'></div>
                 <p className='font-normal text-sm'>Total Credit Hour: {credit}</p>
                 <div className='mt-4 mb-1 border-b-2 border-b-neutral-200'></div>
                 <p className='font-normal text-sm'>Total Price: {totalPrice} USD</p>
-
             </div>
         </div>
     );
