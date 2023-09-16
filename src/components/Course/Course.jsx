@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import DollerIcon from '../../assets/dollar-sign 1.svg'
 import BookIcon from '../../assets/book.png'
 const Course = ({ handlerCourses, course }) => {
-    const { id, course_title, course_img, description, price, credit_hour } = course;
+    const { course_title, course_img, description, price, credit_hour } = course;
     return (
         <div>
             {/* course card */}
@@ -35,9 +35,3 @@ Course.propTypes = {
 export default Course;
 
 
-// "id": 8407,
-//       "course_title": "Introduction to OOP Python",
-//       "course_img": "https://i.ibb.co/ts9n1Jt/Rectangle-2.png",
-//       "description": "Discover Python's object-oriented programming capabilities. Create reusable and efficient code using Python.",
-//       "price": 10000,
-//       "credit_hour": 5
