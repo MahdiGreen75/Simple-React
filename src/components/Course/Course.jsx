@@ -10,7 +10,7 @@ const Course = ({ handlerCourses, course }) => {
                 <div><img src={course_img} /></div>
                 <h1 className='text-sm font-semibold leading-none'>{course_title}</h1>
                 <p className='text-xs font-normal'>{description}</p>
-                <div className='flex items-center text-sm text-gray-600 font-medium text-center'>
+                <div className='flex items-center text-xs text-gray-600 font-bold text-center'>
                     <img src={DollerIcon} className='w-4'/>
                     <span className='mr-3'>Price: {price}</span>
                     <img src={BookIcon} className='w-4'/>
