@@ -2,6 +2,8 @@
 
 This template provides a minimal description of this project features. And tools used to make it alive.
 
+# Live Link <br/>
+[Click here to visit the live site](https://amusing-territory.surge.sh)
 # Project Features
 
 This is a SPA(Single Page Application) which portrays a course selling educational website.  
